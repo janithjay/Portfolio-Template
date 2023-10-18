@@ -157,7 +157,7 @@ body {
   position: fixed;
   padding-block: 15px;
   width: 100%;
-  background-color: hsl(240, 5%, 16%);
+  background-color: hsl(0, 0%, 7%);
   height: 65px;
   box-shadow: 0 -5px 10px hsl(254, 7%, 65%);
   overflow: hidden;
