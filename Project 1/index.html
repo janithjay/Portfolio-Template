@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automated Nighttime Door Control System </title>
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!--custom css link-->
+  <link rel="stylesheet" href="./assests/css/style.css">
+  
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+ 
+
+  <body id="top">
+
+    <!-- 
+      - #HEADER
+    -->
+  
+    <header class="header" data-header>
+      <div class="container">
+  
+        <a href="../portfolio/index.html#home">
+          <h1 class="logo">Janith Jayashan</h1>
+        </a>
+  
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+          <i class="material-icons menu-icon icon-white">menu</i> 
+          <i class="material-icons close-icon icon-white">close</i>
+        </button>
+  
+        <nav class="navbar container">
+          <ul class="navbar-list">
+  
+            <li>
+              <a href="../portfolio/index.html#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+  
+            <li>
+              <a href="../portfolio/index.html#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+  
+            <li>
+              <a href="../portfolio/index.html#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+            </li>
+  
+            <li>
+              <a href="../portfolio/index.html#skills" class="navbar-link" data-nav-link>Skills</a>
+            </li>
+  
+            <li>
+              <a href="../portfolio/index.html#contact" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+  
+          </ul>
+        </nav>
+  
+      </div>
+    </header>
+
+  <br><br>
+
+ 
+
+
+
+<!-- Content -->
+
+    <section class="section content" id="content">
+      <div class="container">
+
+        <p class="section-subtitle">Arduino DIY Project 1</p>
+        <br>
+        <h2 class="h2 section-title">Automated Nighttime Door Control System</h2>
+        <br>
+
+         <!--images-->
+
+        <ul class="image-list">
+
+          <li>
+            <a href="../Project 1/index.html" class="image-card" style="background-image: url('./assests/images/image2.jpg')">
+            </a>
+          </li>
+    
+          <li>
+            <a href="../Project 1/index.html" class="image-card" style="background-image: url('./assests/images/image1.jpg')">
+            </a>
+          </li>
+    
+        </ul>
+        <br><br><br>
+
+        <center><h2 style="color: white"> Introduction </h2></center>
+        <br>
+
+        <p class="section-text" style="text-align:left">
+          In my journey as a passionate DIY electronics enthusiast, I designed and implemented an Automated Nighttime Door Control System using Arduino. This project showcases my proficiency in embedded systems, sensors, and programming, as well as my ability to address real-world problems through innovative solutions. Below, I will outline the project's key features, the technology used, and its practical applications.
+        </p>
+
+        <center><h2 style="color: white"> Project Overview </h2></center>
+        <br>
+
+        <p class="section-text" style="text-align:left">
+          The Automated Nighttime Door Control System is a hands-on project that utilizes an Arduino microcontroller to control a door's operation based on ambient light levels. Its primary goal is to enhance security and convenience by automating the door's operation only during nighttime hours when it's most needed.
+        </p>
+        
+        <center><h2 style="color: white"> Key Features </h2></center>
+        <br>
+        
+        <p class="section-text" style="text-align:left">
+          
+            <b style="color: white">Light Sensing Capability:</b> The heart of the system is a light sensor (LDR - Light Dependent Resistor) that detects ambient light levels. When the light drops below a certain threshold, indicating nighttime, the system activates the door control.
+            <br><br>
+            <b style="color: white">Arduino Microcontroller:</b> I used an Arduino board (such as the Arduino Uno) to process sensor data and control the door mechanism. The Arduino sketch (program) I developed is responsible for decision-making based on light levels.
+            <br><br>
+            <b style="color: white">Relay Control:</b> To physically control the door, I integrated a relay module with the Arduino. When the system determines that it's nighttime, it triggers the relay to operate the door mechanism, which can be a motor, solenoid, or any other actuator suitable for the specific application.
+            <br><br>
+            <b style="color: white">Customizable Timing:</b> The system allows for customization of the nighttime duration, making it adaptable to different locations and preferences. Users can easily adjust the threshold light level and the timing for when the door should activate.
+            <br><br>
+            <b style="color: white">LED Indicators:</b> To provide visual feedback, I added LEDs that indicate the system's status. For instance, a green LED might indicate daytime, while a red LED signifies nighttime when the door automation is active.
+          
+        </p>
+        
+        <center><h2 style="color: white"> Applications </h2></center>
+        <br>
+
+        <p class="section-text" style="text-align:left">
+          
+          The Automated Nighttime Door Control System has a wide range of practical applications.
+          <br><br>
+          <b style="color: white">Home Security:</b> Enhance home security by automatically locking or closing doors at night, reducing the risk of unauthorized entry.
+          <br><br>
+          <b style="color: white">Energy Efficiency:</b> It can be used to control doors in commercial buildings to conserve energy by ensuring that doors are closed when the building is not in use.
+          <br><br>
+          <b style="color: white">Agricultural Automation:</b> In agriculture, it can be employed to automate access to livestock barns, protecting animals from nocturnal predators.
+          <br><br>
+          <b style="color: white">Residential Convenience:</b> Improve the convenience of access to garages, storage areas, or gates, especially in areas with low visibility during the night.
+        </p>
+        
+        <center><h2 style="color: white"> Conclusion </h2></center>
+        <br>
+
+        <p class="section-text" style="text-align:left">
+          
+          The Automated Nighttime Door Control System is a testament to my skills in embedded systems, sensor integration, and programming using Arduino. It not only demonstrates my ability to innovate and solve real-world problems but also highlights my commitment to enhancing security and convenience through automation. This project serves as a valuable addition to my portfolio, showcasing my technical expertise and practical problem-solving abilities.
+        </p>
+    
+    
+      </div>
+    </section>
+
+
+
+
+    <!--FOOTER-->
+
+    <footer class="footer" >
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="https://www.linkedin.com/in/janithjayashan/" class="copyright-link">janithjayashan</a>. All Rights Reseverd
+        </p>
+
+      </div>
+    </footer>
+
+
+
+
+
+    <!-- 
+      - #BACK TO TOP
+    -->
+
+    <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+    <!-- 
+      - custom js link
+    -->
+    <script src="./assests/js/script.js"></script>
+
+  </body>
+</html>
